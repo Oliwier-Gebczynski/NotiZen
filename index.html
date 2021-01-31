@@ -7,20 +7,28 @@
     <meta name="author" content="Oliwier Gębczyński 2020">
     <link rel="stylesheet" href="./style/main.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Pragati+Narrow&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
     <title>My_Casino</title>
 </head>
 
 <body>
     <div class="container">
-        <header class="header">
-            <figure class="header__figure">
-                <img>
-            </figure>
-        </header>
         <main class="main">
-            <h1>NotiZen</h1>
+            <section class="main__logo">
+                <h1 class="main__title">NotiZen</h1>
+                <img src="./resources/ying-yang.png" class="main__img">
+            </section>
+            <p class="main__info">Notując zapamiętasz więcej</p>
+            <p class="main__info">Notatki będą się zapisywac w plikach Cookies 🍪</p>
         </main>
+
+        <section class="list">
+            <h2 class="list__title">Ostatnie notatki</h2>
+            <form class="list__note list__note--add">
+                <input type="submit" value="+" class="list__button">
+                <input type="text" placeholder="Wpisz tytuł notatki" class="list__input">
+            </form>
+        </section>
     </div>
 </body>
 
