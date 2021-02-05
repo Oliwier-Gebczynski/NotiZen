@@ -8,27 +8,31 @@
     <link rel="stylesheet" href="./style/main.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
-    <title>My_Casino</title>
+    <title>NotiZen</title>
 </head>
 
 <body>
     <div class="container">
         <main class="main">
             <section class="main__logo">
-                <h1 class="main__title">NotiZen</h1>
-                <img src="./resources/ying-yang.png" class="main__img">
+                <h1 class="main__logo-title">NotiZen</h1>
+                <img src="./resources/ying-yang.png" class="main__logo-img">
             </section>
             <p class="main__info">🧠 Notując zapamiętasz więcej 🧠</p>
         </main>
 
         <section class="list">
             <h2 class="list__title">Zadania</h2>
-            <form class="list__note list__note--add">
-                <input type="submit" value="+" class="list__button">
-                <input type="text" placeholder="Wpisz tytuł notatki" class="list__input">
+            <form class="list__note">
+                <input type="submit" value="+" class="list__note-button" id="submit">
+                <input type="text" placeholder="Wpisz zadanie do wykonania" class="list__note-input" id="input">
             </form>
+            <section class="catalogue" id="list">
+
+            </section>
         </section>
     </div>
+    <script src="./script/toDo.js"></script>
 </body>
 
 </html>
