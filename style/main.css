@@ -156,4 +156,11 @@
   -ms-flex-item-align: end;
       align-self: flex-end;
 }
+
+* .list .catalogue__element-delete:hover {
+  background-color: #ff4343;
+  color: white;
+  -webkit-transition: ease-in .2s;
+  transition: ease-in .2s;
+}
 /*# sourceMappingURL=main.css.map */

@@ -110,6 +110,12 @@
                 background-color: transparent;
                 border: solid#c2c2c2 1px;
                 align-self: flex-end;
+
+                &:hover{
+                    background-color: rgb(255, 67, 67);
+                    color: white;
+                    transition: ease-in .2s;
+                }
             }
         }
     }
