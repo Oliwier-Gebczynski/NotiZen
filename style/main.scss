@@ -35,6 +35,32 @@
         color: #9b9b9b;
         text-align: center;
     }
+
+    &__nav{
+        width: 125px;
+        margin-top: 5%;
+        display: flex;
+        justify-content: space-between;
+        
+        &-element{
+            list-style: none;
+
+            &--button{
+                display: block;
+                outline: none;
+                border: none;
+                background-color: transparent;
+                border-bottom: solid #c2c2c2 1px;
+                font-size: 17px;
+                padding: 5px;
+
+                &:hover{
+                    background-color: #c2c2c2;
+                    transition: ease-in .3s;
+                }
+            }
+        }
+    }
 }
 
 .list{
@@ -45,7 +71,7 @@
     flex-direction: column;
     align-items: center;
 
-    &__title{
+    &__title, .h2{
         width: 90%;
         font-size: 25px;
         border-bottom: solid #c2c2c2 1px;
@@ -119,5 +145,12 @@
             }
         }
     }
+}
+
+.note{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 }

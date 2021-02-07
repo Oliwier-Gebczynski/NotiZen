@@ -1,8 +1,8 @@
 const submitBtn = document.querySelector('#submit');
-const input = document.querySelector('#input').value;
 
 submitBtn.addEventListener('click', function (event) {
     event.preventDefault();
+    const input = document.querySelector('#input').value;
 
     const listEl = document.createElement('div');
     listEl.classList.add("catalogue__element");

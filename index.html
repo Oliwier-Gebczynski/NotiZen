@@ -19,20 +19,41 @@
                 <img src="./resources/ying-yang.png" class="main__logo-img">
             </section>
             <p class="main__info">🧠 Notując zapamiętasz więcej 🧠</p>
+            <ul class="main__nav">
+                <li class="main__nav-element">
+                    <button class="main__nav-element--button" id="toDo">ToDo</button>
+                </li>
+                <li class="main__nav-element">
+                    <button class="main__nav-element--button" id="notes">Notes</button>
+                </li>
+            </ul>
         </main>
 
-        <section class="list">
-            <h2 class="list__title">Zadania</h2>
-            <form class="list__note">
-                <input type="submit" value="+" class="list__note-button" id="submit">
-                <input type="text" placeholder="Wpisz zadanie do wykonania" class="list__note-input" id="input">
+        <section class="list template" id="listSection">
+            <h2 class="list__title h2">Zadania</h2>
+            <form class="list__note form">
+                <input type="submit" value="+" class="list__note-button submit_btn" id="submit">
+                <input type="text" placeholder="Wpisz zadanie do wykonania" class="list__note-input input" id="input">
             </form>
             <section class="catalogue" id="list">
 
             </section>
         </section>
+
+        <section class="note">
+            <h2 class="note__title">Notatki</h2>
+            <form class="note__form">
+                <input type="submit" value="+" class="list__note-button submit_btn" id="submitNote">
+                <input type="text" placeholder="Wpisz zadanie do wykonania" class="list__note-input input"
+                    id="inputNote">
+            </form>
+
+
+
+        </section>
     </div>
     <script src="./script/toDo.js"></script>
+    <script src="./script/nav.js"></script>
 </body>
 
 </html>
