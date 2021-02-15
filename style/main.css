@@ -47,7 +47,7 @@
 }
 
 * .main__info {
-  font-size: 13px;
+  font-size: 14px;
   color: #9b9b9b;
   text-align: center;
 }
@@ -72,13 +72,13 @@
   outline: none;
   border: none;
   background-color: transparent;
-  border-bottom: solid #c2c2c2 1px;
-  font-size: 17px;
+  border-bottom: solid #9b9b9b 1px;
+  font-size: 18px;
   padding: 5px;
 }
 
 * .main__nav-element--button:hover {
-  background-color: #c2c2c2;
+  background-color: #9b9b9b;
   -webkit-transition: ease-in .3s;
   transition: ease-in .3s;
 }
@@ -102,7 +102,7 @@
 * .list__title, * .list .h2 {
   width: 90%;
   font-size: 25px;
-  border-bottom: solid #c2c2c2 1px;
+  border-bottom: solid #9b9b9b 1px;
 }
 
 * .list__note {
@@ -125,7 +125,7 @@
   height: 25px;
   border-style: solid;
   border-width: 1px;
-  border-color: #c2c2c2;
+  border-color: #9b9b9b;
   outline: none;
   background-color: transparent;
 }
@@ -134,7 +134,7 @@
   height: 25px;
   width: 97%;
   margin-left: 10px;
-  border: solid #c2c2c2 1px;
+  border: solid #9b9b9b 1px;
   outline: none;
 }
 
@@ -168,14 +168,14 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border-bottom: solid #c2c2c2 1px;
+  border-bottom: solid #9b9b9b 1px;
 }
 
 * .list .catalogue__element-content {
   height: 25px;
   width: 97%;
   padding-left: 3.9%;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 * .list .catalogue__element-delete {
@@ -183,7 +183,7 @@
   height: 25px;
   outline: none;
   background-color: transparent;
-  border: solid #c2c2c2 1px;
+  border: solid #9b9b9b 1px;
   -ms-flex-item-align: end;
       align-self: flex-end;
 }
@@ -222,14 +222,14 @@
   height: 300px;
   background-color: transparent;
   font-size: 100px;
-  border: solid #c2c2c2 1px;
+  border: solid #9b9b9b 1px;
   outline: none;
 }
 
 * .note__content-button:active {
   -webkit-transition: ease-in .1s;
   transition: ease-in .1s;
-  background-color: #c2c2c2;
+  background-color: #9b9b9b;
 }
 
 * .note__content .element {
@@ -249,17 +249,17 @@
   width: 300px;
   height: 300px;
   margin-bottom: 5%;
-  border: solid #c2c2c2 1px;
+  border: solid #9b9b9b 1px;
 }
 
 * .note__content .element__header, * .note__content .element__content {
-  border: solid #c2c2c2 1px;
+  border: solid #9b9b9b 1px;
 }
 
 * .note__content .element__header {
   width: 80%;
   height: 10%;
-  font-size: 17px;
+  font-size: 18px;
   font-weight: 500;
   margin-bottom: 5%;
   outline: none;
@@ -270,7 +270,7 @@
   resize: none;
   width: 80%;
   height: 60%;
-  font-size: 15px;
+  font-size: 14px;
   padding: 5px;
   outline: none;
 }
@@ -279,7 +279,7 @@
   margin-top: 5%;
   width: 10%;
   height: 10%;
-  border: solid #c2c2c2 1px;
+  border: solid #9b9b9b 1px;
   background-color: transparent;
 }
 /*# sourceMappingURL=main.css.map */

@@ -1,3 +1,6 @@
+@import './colors';
+@import './font';
+
 *{
     margin: 0;
     padding: 0;
@@ -21,7 +24,7 @@
         align-items: center;
 
         &-title{
-            font-size: 40px;
+            font-size: $title-mobile ;
         }
 
         &-img{
@@ -31,8 +34,8 @@
     }
 
     &__info{
-        font-size: 13px;
-        color: #9b9b9b;
+        font-size: $h2-mobile;
+        color: $light_border;
         text-align: center;
     }
 
@@ -50,12 +53,12 @@
                 outline: none;
                 border: none;
                 background-color: transparent;
-                border-bottom: solid #c2c2c2 1px;
-                font-size: 17px;
+                border-bottom: solid $light_border 1px;
+                font-size: $nav-mobile;
                 padding: 5px;
 
                 &:hover{
-                    background-color: #c2c2c2;
+                    background-color: $light_border;
                     transition: ease-in .3s;
                 }
             }
@@ -73,8 +76,8 @@
 
     &__title, .h2{
         width: 90%;
-        font-size: 25px;
-        border-bottom: solid #c2c2c2 1px;
+        font-size: $h3-mobile;
+        border-bottom: solid $light_border 1px;
     }
 
     &__note{
@@ -90,7 +93,7 @@
             height: 25px;
             border-style: solid;
             border-width: 1px;
-            border-color:  #c2c2c2;
+            border-color:  $light_border;
             outline: none;
             background-color: transparent;
         }
@@ -99,7 +102,7 @@
             height: 25px;
             width: 97%;
             margin-left: 10px;
-            border: solid#c2c2c2 1px;
+            border: solid $light_border 1px;
             outline: none;
         }
     }
@@ -120,13 +123,13 @@
             display: flex;
             justify-content: flex-start;
             align-items: center;
-            border-bottom: solid #c2c2c2 1px;
+            border-bottom: solid $light_border 1px;
 
             &-content{
                 height: 25px;
                 width: 97%;
                 padding-left: 3.9%;
-                font-size: 15px;
+                font-size: $h2-mobile;
             }
 
             &-delete{
@@ -134,7 +137,7 @@
                 height: 25px;
                 outline: none;
                 background-color: transparent;
-                border: solid#c2c2c2 1px;
+                border: solid $light_border 1px;
                 align-self: flex-end;
 
                 &:hover{
@@ -163,12 +166,12 @@
             height: 300px;
             background-color: transparent;
             font-size: 100px;           
-            border: solid#c2c2c2 1px;
+            border: solid $light_border 1px;
             outline: none;
 
             &:active{
                 transition: ease-in .1s ;
-                background-color: #c2c2c2;
+                background-color: $light_border;
             }
         }
 
@@ -180,16 +183,16 @@
             width: 300px;
             height: 300px;
             margin-bottom: 5%;
-            border: solid#c2c2c2 1px;
+            border: solid $light_border 1px;
 
             &__header, &__content{
-                border: solid#c2c2c2 1px;
+                border: solid $light_border 1px;
             }
 
             &__header{
                 width: 80%;
                 height: 10%;
-                font-size: 17px;
+                font-size: $headerNote-mobile;
                 font-weight: 500;
                 margin-bottom: 5%;
                 outline: none;
@@ -200,7 +203,7 @@
                 resize: none;
                 width: 80%;
                 height: 60%;
-                font-size: 15px;
+                font-size: $h2-mobile;
                 padding: 5px;
                 outline: none;
             }
@@ -209,13 +212,10 @@
                 margin-top: 5%;
                 width: 10%;
                 height: 10%;
-                border: solid#c2c2c2 1px;
+                border: solid $light_border 1px;
                 background-color: transparent;
             }
         }
     }
-
-
-
 }
 }
