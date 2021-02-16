@@ -47,7 +47,7 @@
 }
 
 * .main__info {
-  font-size: 14px;
+  font-size: 16px;
   color: #9b9b9b;
   text-align: center;
 }
@@ -83,13 +83,83 @@
   transition: ease-in .3s;
 }
 
+* .home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 15%;
+}
+
+* .home__h2 {
+  font-size: 16px;
+  margin: 0 5% 3% 5%;
+  border-bottom: solid #9b9b9b 1px;
+  padding-bottom: 2%;
+  text-align: center;
+}
+
+* .home__text {
+  font-size: 16px;
+  text-align: center;
+  margin: 0 5% 0 5%;
+}
+
+* .home .contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 20% 5% 3% 5%;
+}
+
+* .home .contact__h3 {
+  font-size: 16px;
+  margin-bottom: 5%;
+  text-align: center;
+  border-bottom: solid #9b9b9b 1px;
+  padding-bottom: 2%;
+}
+
+* .home .contact__content {
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+* .home .contact__link {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+* .home .contact__link-item {
+  margin-bottom: 3%;
+  border-bottom: solid #9b9b9b 1px;
+}
+
 * .list {
   width: 100%;
   height: auto;
   margin-top: 10%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -175,7 +245,7 @@
   height: 25px;
   width: 97%;
   padding-left: 3.9%;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 * .list .catalogue__element-delete {
@@ -196,9 +266,7 @@
 }
 
 * .note {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -270,7 +338,7 @@
   resize: none;
   width: 80%;
   height: 60%;
-  font-size: 14px;
+  font-size: 16px;
   padding: 5px;
   outline: none;
 }

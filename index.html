@@ -9,11 +9,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
     <title>NotiZen</title>
+    <link rel="shortcut icon" href="./resources/ying-yang.png">
 </head>
 
 <body>
     <div class="container">
-        <main class="main">
+
+        <section class="main">
             <section class="main__logo">
                 <h1 class="main__logo-title">NotiZen</h1>
                 <img src="./resources/ying-yang.png" class="main__logo-img">
@@ -27,7 +29,22 @@
                     <button class="main__nav-element--button" id="notes">Notes</button>
                 </li>
             </ul>
-        </main>
+        </section>
+
+        <section class="home">
+            <h2 class="home__h2">Z naszą stroną poprawisz swoją efektywność</h2>
+            <p class="home__text">"Człowiek, który goni dwa zające nie złapie ani jednego." <span class="home__text-person">– Konfucjusz</span> 🐰</p>
+            <section class="contact">
+                <h3 class="contact__h3">Chcesz pomóc nam w rozwoju aplikacji?</h3>
+                <p class="contact__content">Jesteśmy dostępni w tych miejscach:</p>
+                <ul class="contact__link">
+                    <li class="contact__link-item"><a>GitHub</a></li>
+                    <li class="contact__link-item"><a>Facebook</a></li>
+                    <li class="contact__link-item"><a>LinkedIn</a></li>
+                    <li class="contact__link-item"><button>Gmail</button></li>
+                </ul>
+            </section>
+        </section>
 
         <section class="list template" id="listSection">
             <h2 class="list__title h2">Zadania</h2>
@@ -46,6 +63,7 @@
                 <button class="note__content-button" id="add_note">+</button>
             </div>
         </section>
+
     </div>
     <script src="./script/toDo.js"></script>
     <script src="./script/nav.js"></script>
