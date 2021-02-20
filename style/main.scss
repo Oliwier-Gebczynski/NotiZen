@@ -70,27 +70,40 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 30%;
+    margin-top: 15%;
 
-    &__h2{
-        font-size: $h2-mobile;
-        margin: 0 5% 3% 5%;
-        border-bottom: solid $light_border 1px;
-        padding-bottom: 2%;
-        text-align: center;
-    }
+    &__article{
+        width: 100%;
+        padding: 15% 0 15% 0;
+        background: url(../resources/home.jpg);
+        background-size: cover;
+        background-position: center;
 
-    &__text{
-        font-size: $content-mobile;
-        text-align: center;
-        margin: 0 5% 0 5%;
+        &::after{
+            background-color: turquoise;
+        }
+        &-h2{
+            font-size: $h2-mobile;
+            color: $light_font;
+            margin: 0 5% 3% 5%;
+            border-bottom: solid $light_border 1px;
+            padding-bottom: 2%;
+            text-align: center;
+        }
+
+        &-text{
+            font-size: $content-mobile;
+            text-align: center;
+            margin: 0 5% 0 5%;
+            color: $light_font;
+        }
     }
 
     .contact{
         display: flex;
+        width: 100%;
         flex-direction: column;
-        margin: 40% 5% 3% 5%;
-        background-color: rgb(223, 223, 223);
+        margin: 15% 5% 3% 5%;
         padding: 5%;
         
         &__h3{
@@ -117,6 +130,13 @@
                 margin-bottom: 3%;
                 border-bottom: solid $light_border 1px;
 
+                &--button{
+                    background: transparent;
+                    outline: none;
+                    border: none;
+                    font-size: $h2-mobile;
+
+                }
             }
         }
     }
