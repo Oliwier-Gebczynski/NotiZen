@@ -1,3 +1,8 @@
+.dark-theme {
+  color: #fff;
+  background-color: #2C2C2C;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -9,7 +14,7 @@
 * .main {
   width: 100%;
   height: auto;
-  margin-top: 5%;
+  padding-top: 40px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -24,9 +29,24 @@
           align-items: center;
 }
 
+* .main__button {
+  position: absolute;
+  outline: none;
+  background: transparent;
+  border: solid 1px;
+  top: 40px;
+  right: 25px;
+}
+
+* .main__button-img {
+  width: 40px;
+  height: 40px;
+}
+
 * .main__logo {
   width: 250px;
-  margin-bottom: 2%;
+  margin-bottom: 20px;
+  margin-right: 5%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -75,6 +95,7 @@
   border-bottom: solid #C2C2C2 1px;
   font-size: 18px;
   padding: 5px;
+  color: black;
 }
 
 * .main__nav-element--button:hover {
@@ -285,6 +306,7 @@
 
 * .note {
   display: none;
+  min-height: 100%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -296,7 +318,7 @@
       -ms-flex-pack: center;
           justify-content: center;
   margin-top: 5%;
-  margin-bottom: 5%;
+  padding-bottom: 5%;
 }
 
 * .note__content {
@@ -351,6 +373,7 @@
   outline: none;
   padding: 5px;
   border: none;
+  background-color: white;
 }
 
 * .note__content .element__content {
@@ -360,6 +383,7 @@
   font-size: 16px;
   padding: 5px;
   outline: none;
+  background-color: white;
 }
 
 * .note__content .element__btn {
@@ -371,7 +395,7 @@
 }
 
 * .footer {
-  margin: 5% 0 5% 0;
+  padding: 5% 0 5% 0;
   text-align: center;
   font-size: 15px;
   color: #C2C2C2;
