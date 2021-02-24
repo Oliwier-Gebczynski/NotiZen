@@ -1,0 +1,144 @@
+.list{
+    width: 100%;
+    height: auto;
+    margin-top: 10%;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+
+    &__title, .h2{
+        width: 90%;
+        font-size: $h3-mobile;
+        border-bottom: solid $light_border 1px;
+    }
+
+    &__note{
+        height: 30px;
+        width: 90%;
+        margin-top: 1%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+        &-button{
+            width: 25px;
+            height: 25px;
+            border-style: solid;
+            border-width: 1px;
+            border-color:  $light_border;
+            outline: none;
+            background-color: transparent;
+        }
+
+        &-input{
+            height: 25px;
+            width: 97%;
+            margin-left: 10px;
+            border: solid $light_border 1px;
+            outline: none;
+        }
+    }
+
+    .catalogue{
+        width: 100%;
+        margin-top: 1%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &__element{
+            width: 90%;
+            height: 30px;
+            margin-top: 3%;
+            padding-bottom: 1%;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            border-bottom: solid $light_border 1px;
+
+            &-content{
+                height: 25px;
+                width: 97%;
+                padding-left: 3.9%;
+                font-size: $h2-mobile;
+            }
+
+            &-delete{
+                width: 25px;
+                height: 25px;
+                outline: none;
+                background-color: transparent;
+                border: solid $light_border 1px;
+                align-self: flex-end;
+
+                &:hover{
+                    background-color: rgb(255, 67, 67);
+                    color: white;
+                    transition: ease-in .2s;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1100px){
+    .list{
+        margin-top: 5%;
+
+        &__title, .h2{
+            width: 60%;
+            font-size: $h3-mobile;
+            border-bottom: solid $light_border 1px;
+        }
+
+        &__note{
+            height: 45px;
+            width: 60%;
+            margin-top: 1%;
+    
+            &-button{
+                width: 35px;
+                height: 35px;
+            }
+    
+            &-input{
+                height: 35px;
+                width: 97%;
+                margin-left: 10px;
+                border: solid $light_border 1px;
+                outline: none;
+                padding-left: 1%;
+            }
+        }
+
+        .catalogue{
+            width: 100%;
+            margin-top: 1%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+    
+            &__element{
+                width: 60%;
+                height: 45px;
+                margin-bottom: 2%;
+    
+                &-content{
+                    height: 35px;
+                    font-size: $h2-pc;
+                }
+    
+                &-delete{
+                    width: 35px;
+                    height: 35px;
+    
+                    &:hover{
+                        background-color: rgb(255, 67, 67);
+                        color: white;
+                        transition: ease-in .2s;
+                    }
+                }
+            }
+        }
+    }
+}
