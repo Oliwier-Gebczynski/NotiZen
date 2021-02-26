@@ -77,6 +77,24 @@
                     transition: ease-in .2s;
                 }
             }
+
+            &-done{
+                width: 25px;
+                height: 25px;
+                outline: none;
+                background-color: transparent;
+                border: solid $light_border 1px;
+                align-self: flex-end;
+                margin-right: 3%;
+
+                &:hover{
+                    background-color: rgb(4, 126, 0);
+                    color: white;
+                    transition: ease-in .2s;
+                }
+            }
+
+
         }
     }
 }
@@ -137,6 +155,11 @@
                         color: white;
                         transition: ease-in .2s;
                     }
+                }
+
+                &-done{
+                    width: 35px;
+                    height: 35px;
                 }
             }
         }
