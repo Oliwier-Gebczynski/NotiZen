@@ -49,7 +49,7 @@
             margin-bottom: 5%;
         }
 
-        &__link{
+        .link{
             list-style: none;
             display: flex;
             flex-direction: column;
@@ -86,7 +86,7 @@
                 margin-bottom: 1%;
             }
 
-            &__link{
+            .link{
                 display: grid;
                 grid-template-columns: 30% 20% 20% 30%;
                 grid-template-rows: 1fr 1fr;
@@ -116,8 +116,6 @@
                     text-align: center;
                     justify-self: center;
                 }
-
-
             
         }
     }
@@ -154,7 +152,7 @@
                 margin-bottom: 5%;
             }
 
-            &__link{
+            .link{
                 display: grid;
                 grid-template-columns: 35% 15% 15% 35%;
                 grid-template-rows: 1fr 1fr;

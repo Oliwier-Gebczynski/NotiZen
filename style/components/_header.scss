@@ -21,9 +21,6 @@
             }
         }
 
-        
-    
-
     &__logo{
         width: 250px;
         margin-bottom: 20px;
@@ -48,16 +45,16 @@
         text-align: center;
     }
 
-    &__nav{
+    .nav{
         width: 300px;
         margin-top: 5%;
         display: flex;
         justify-content: space-between;
         
-        &-element{
+        &__element{
             list-style: none;
 
-            &--button{
+            &-button{
                 display: block;
                 outline: none;
                 border: none;
@@ -83,13 +80,13 @@
             font-size: $h2-pc;
         }
 
-        &__nav{
+        .nav{
             margin-top: 2%;
-            width: 300px;
+            width: 400px;
 
-            &-element{
+            &__element{
 
-                &--button{
+                &-button{
                     font-size: $nav-pc;
                 }
             }
