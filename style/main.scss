@@ -1,15 +1,22 @@
 @import './variables/colors';
 @import './variables/font';
+
+.dark-theme{
+    color: $dark_font;
+    background-color: $dark_bgc;
+
+    button, li, a, input, textarea{
+        color: $dark_font;
+        background-color: $dark_bgc;
+    }
+
+}
+
 @import './components/header';
 @import './components/main';
 @import './components/footer';
 @import './components/toDo';
 @import './components/note';
-
-.dark-theme{
-    color: $dark_font;
-    background-color: $dark_bgc;
-}
 
 *{
     margin: 0;
