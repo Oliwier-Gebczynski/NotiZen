@@ -6,12 +6,15 @@ const home = document.querySelector("#home");
 const note = document.querySelector(".note");
 const footer = document.querySelector("#footer");
 const homeBtn = document.querySelector("#homeBtn");
+const pomodoroBtn = document.querySelector('#pomodoroBtn');
+const pomodoro = document.querySelector('.pomodoro')
 
 notesBtn.addEventListener("click", function () { // po kliknieciu przycisku notes tylko on ma display=flex
     toDoSection.style.display = "none";
     note.style.display = "flex";
     home.style.display = "none";
     footer.style.display = "none";
+    pomodoro.style.display = "none";
 });
 
 toDoBtn.addEventListener("click", function () { // po kliknieciu przycisku toDo tylko on ma display=flex
@@ -19,6 +22,7 @@ toDoBtn.addEventListener("click", function () { // po kliknieciu przycisku toDo 
     note.style.display = "none";
     home.style.display = "none"
     footer.style.display = "none";
+    pomodoro.style.display = "none";
 });
 
 homeBtn.addEventListener("click", function(){ // po kliknieciu przycisku home tylko on ma display=flex
@@ -26,4 +30,13 @@ homeBtn.addEventListener("click", function(){ // po kliknieciu przycisku home ty
     note.style.display = "none";
     home.style.display = "flex";
     footer.style.display = "block";
+    pomodoro.style.display = "none";
+})
+
+pomodoroBtn.addEventListener("click", function(){
+    toDoSection.style.display = "none";
+    note.style.display = "none";
+    home.style.display = "none";
+    footer.style.display = "none";
+    pomodoro.style.display = "flex";
 })
