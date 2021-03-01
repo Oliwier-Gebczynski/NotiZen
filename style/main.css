@@ -661,8 +661,8 @@
   text-align: center;
 }
 
-.timer {
-  width: 50%;
+.form {
+  width: 80%;
   margin-top: 5%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -671,12 +671,27 @@
       justify-content: space-around;
 }
 
-.timer-input {
-  width: 33%;
+.form-input {
+  width: 24%;
   outline: none;
   padding: 2%;
   font-size: 20px;
   text-align: center;
+  border: solid #979797 1px;
+}
+
+.form-button {
+  width: 25%;
+  outline: none;
+  background-color: transparent;
+  border: solid #979797 1px;
+}
+
+.form-button:hover {
+  background-color: #ff4343;
+  color: white;
+  -webkit-transition: ease-in .2s;
+  transition: ease-in .2s;
 }
 
 * {

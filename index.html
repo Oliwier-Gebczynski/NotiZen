@@ -77,10 +77,14 @@
             <h2 class="pomodoro__title">Pomodoro</h2>
             <p class="pomodoro__info">Za minutę skupienia dostaniesz 1 punkt Zen㊗️</p>
             <p class="pomodoro__info">Jeśli przerwiesz odliczanie skupienia nie dostaniesz punktów!</p>
+            <section class="form">
+                <input type="number" class="form-input" id="hours" placeholder="Godziny" min="0">
+                <input type="number" class="form-input" id="minutes" placeholder="Minuty" min="0" max="59">
+                <input type="number" class="form-input" id="seconds" placeholder="Sekundy" max="59" min="0">
+                <button class="form-button" id="startBtn">Zacznij</button>
+            </section>
             <section class="timer">
-                <input type="number" class="timer-input" id="hours" placeholder="Godziny" min="0">
-                <input type="number" class="timer-input" id="minutes" placeholder="Minuty" min="0" max="59">
-                <input type="number" class="timer-input" id="seconds" placeholder="Sekundy" max="59" min="0">
+
             </section>
         </section>
 
@@ -93,6 +97,7 @@
     <script src="./script/nav.js"></script>
     <script src="./script/addNote.js"></script>
     <script src="./script/theme.js"></script>
+    <script src="./script/pomodoro.js"></script>
 </body>
 
 </html>
