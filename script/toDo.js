@@ -9,6 +9,10 @@ submitBtn.addEventListener('click', function (event) { // na przycisk wykonaj an
         alert("Wpisz dane w pole tekstowe!");
     }
     else{// jezeli ma zawartosc wykonaj 
+        const data = {
+            text: `${input}`
+        };
+
         const listEl = document.createElement('div'); // stworzenie elementu
         listEl.classList.add("catalogue__element"); // dodanie klasy do elementu
 
@@ -40,12 +44,11 @@ submitBtn.addEventListener('click', function (event) { // na przycisk wykonaj an
             catalogue.append(listEl);
             this.remove();
         })
-
-        const inputReset = document.querySelector('#input').value = ''; // po stworzeniu notatki wyczysc input
-
-        catalogue.appendChild(listEl); //dodaj todo do kontenera
-    }
-
     
-
+        const inputReset = document.querySelector('#input').value = ''; // po stworzeniu notatki wyczysc input
+        catalogue.appendChild(listEl); //dodaj todo do kontenera
+        const xhttp = new XMLHttpRequest();
+        xhttp.open("POST", data);
+        xhttp.send();
+    }
 });
