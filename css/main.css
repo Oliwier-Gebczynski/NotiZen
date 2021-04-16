@@ -3,7 +3,11 @@
   background-color: #2C2C2C;
 }
 
-.dark-theme button, .dark-theme li, .dark-theme a, .dark-theme input, .dark-theme textarea {
+.dark-theme button,
+.dark-theme li,
+.dark-theme a,
+.dark-theme input,
+.dark-theme textarea {
   color: #fff;
   background-color: #2C2C2C;
 }
