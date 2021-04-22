@@ -1,15 +1,11 @@
 @import './variables/colors';
 @import './variables/font';
 
-.dark-theme {
+.dark-theme{
     color: $dark_font;
     background-color: $dark_bgc;
 
-    button,
-    li,
-    a,
-    input,
-    textarea {
+    button, li, a, input, textarea{
         color: $dark_font;
         background-color: $dark_bgc;
     }
@@ -23,14 +19,14 @@
 @import './components/note';
 @import './components/pomodoro';
 
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Share Tech Mono', monospace;
 }
 
-.coin {
+.coin{
     position: absolute;
     top: 2%;
     left: 5%;
@@ -38,3 +34,4 @@
     display: flex;
     align-items: center;
 }
+    

@@ -3,11 +3,7 @@
   background-color: #2C2C2C;
 }
 
-.dark-theme button,
-.dark-theme li,
-.dark-theme a,
-.dark-theme input,
-.dark-theme textarea {
+.dark-theme button, .dark-theme li, .dark-theme a, .dark-theme input, .dark-theme textarea {
   color: #fff;
   background-color: #2C2C2C;
 }
@@ -189,7 +185,7 @@
     display: grid;
     grid-template-columns: 30% 20% 20% 30%;
     grid-template-rows: 1fr 1fr;
-    grid-template-areas: ". first second ." ". third fourth .";
+    grid-template-areas: ". first second ." ". third fourth .";
     column-gap: 1%;
     row-gap: 50%;
   }
@@ -241,7 +237,7 @@
     display: grid;
     grid-template-columns: 35% 15% 15% 35%;
     grid-template-rows: 1fr 1fr;
-    grid-template-areas: ". first second ." ". third fourth .";
+    grid-template-areas: ". first second ." ". third fourth .";
     row-gap: 50%;
   }
   .home .contact .link-item:nth-child(1) {
