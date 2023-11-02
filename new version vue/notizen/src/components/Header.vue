@@ -8,16 +8,16 @@
             <h2 class="header__info">🧠 Notując zapamiętasz więcej 🧠</h2>
             <ul class="nav">
                 <li class="nav__element">
-                    <button class="nav__element-button" id="homeBtn">Home</button>
+                    <router-link to="/" class="nav__element-button" id="homeBtn">Home</router-link>
                 </li>
                 <li class="nav__element">
-                    <button class="nav__element-button" id="toDo">ToDo</button>
+                    <router-link to="/notepad" class="nav__element-button" id="toDo">ToDo</router-link>
                 </li>
                 <li class="nav__element">
-                    <button class="nav__element-button" id="notes">Notes</button>
+                    <router-link to="#" class="nav__element-button" id="notes">Notes</router-link>
                 </li>
                 <li class="nav__element">
-                    <button class="nav__element-button" id="pomodoroBtn">Pomodoro</button>
+                    <router-link to="#" class="nav__element-button" id="pomodoroBtn">Pomodoro</router-link>
                 </li>
             </ul>
         </header>

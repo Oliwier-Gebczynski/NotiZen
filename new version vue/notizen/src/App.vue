@@ -1,17 +1,14 @@
 <template>
-<SiteHeader></SiteHeader>
-  <MainPage/>
+  <SiteHeader></SiteHeader>
+  <router-view></router-view>
 </template>
 
 <script>
 import SiteHeader from "./components/Header.vue";
-import MainPage from "./components/MainPage.vue";
-
 
 export default {
   name: "App",
   components: {
-    MainPage,
     SiteHeader,
   },
 };

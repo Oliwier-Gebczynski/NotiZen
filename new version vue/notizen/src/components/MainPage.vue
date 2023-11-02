@@ -20,7 +20,7 @@
 <script>
 
 export default {
-  name: "MainPage",
+  name: "Main-page",
     components: {},
 };
 </script>
