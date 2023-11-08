@@ -1,10 +1,10 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import MainPage from '../components/MainPage.vue';
-import NotePad from '../components/Note.vue';
+import ToDo from '../components/ToDo.vue';
 
 const routes = [
   { path: '/', component: MainPage },
-  { path: '/notepad', component: NotePad },
+  { path: '/todo', component: ToDo },
 ];
 
 const router = createRouter({

@@ -11,7 +11,7 @@
                     <router-link to="/" class="nav__element-button" id="homeBtn">Home</router-link>
                 </li>
                 <li class="nav__element">
-                    <router-link to="/notepad" class="nav__element-button" id="toDo">ToDo</router-link>
+                    <router-link to="/todo" class="nav__element-button" id="toDo">ToDo</router-link>
                 </li>
                 <li class="nav__element">
                     <router-link to="#" class="nav__element-button" id="notes">Notes</router-link>
